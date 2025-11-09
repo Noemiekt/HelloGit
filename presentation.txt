@@ -9,3 +9,39 @@ git push -u origin master
 
 git branch -M main
 git push -u origin main
+
+
+Git, c’est comme une machine à remonter le temps pour ton code.
+Il garde toutes les versions de ton projet, te permet de revenir
+en arrière, de travailler à plusieurs sans se marcher dessus, et 
+de sauvegarder ton travail sur Internet (GitHub).
+
+
+[ Working Directory ]  →  [ Staging Area ]  →  [ Local Repository ]  →  [ Remote Repository (GitHub) ]
+         (ton dossier)         (zone d’attente)          (ta machine)                   (en ligne)
+
+Tu modifies un fichier : il est dans le working directory
+
+Tu dis à Git : “tiens, je veux garder ce fichier” → git add
+
+Tu valides ta sauvegarde locale → git commit
+
+Tu envoies ta sauvegarde sur GitHub → git push
+
+
+
+
+git add : “Je prépare mes fichiers à être sauvegardés.”
+git commit : “Je prends une photo de mon travail actuel.”
+
+
+Faites de la branche principale (master ou main) la branche active -> checkout
+
+
+
+git remote add {alias-depot-distant} {lien- github.git} 
+c'est quoi alias depot distant : git remote add origin git@github.com:noemiekt/HelloGit.git
+Git garde en mémoire cet alias (origin) pour savoir où pousser (push) et d’où tirer (pull) ton code
+
+
+7 -> git remote add origin git@github.com:<ton-utilisateur>/HelloGit.git
