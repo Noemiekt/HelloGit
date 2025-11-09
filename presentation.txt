@@ -1,3 +1,11 @@
 Noemie
 24
 1,63
+rose
+
+git remote add origin git@github.com:noemiekt/HelloGit.git
+git push -u origin master
+
+
+git branch -M main
+git push -u origin main
